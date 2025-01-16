@@ -1,0 +1,5 @@
+albumentations
+pillow
+opencv-python
+lmdb
+fire

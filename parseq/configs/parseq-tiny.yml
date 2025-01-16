@@ -1,0 +1,20 @@
+charset: 0123456789aáàãảạăắằẳẵặâấầẩẫậbcdđeéèẻẽẹêếềểễệfghiíìỉĩịjklmnoóòỏõọôốồổỗộơớờởỡợpqrstuúùủũụưứừửữựvwxyýỳỷỹỵzAÁÀÃẢẠĂẮẰẲẴẶÂẤẦẨẪẬBCDĐEÉÈẺẼẸÊẾỀỂỄỆFGHIÍÌỈĨỊJKLMNOÓÒỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢPQRSTUÚÙỦŨỤƯỨỪỬỮỰVWXYÝỲỶỸỴZ
+  !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+dec_depth: 1
+dec_mlp_ratio: 4
+dec_num_heads: 6
+decode_ar: true
+dropout: 0.1
+embed_dim: 192
+enc_depth: 12
+enc_mlp_ratio: 4
+enc_num_heads: 3
+img_size:
+- 32
+- 128
+max_label_length: 25
+name: parseq-tiny
+patch_size:
+- 4
+- 8
+refine_iters: 1
