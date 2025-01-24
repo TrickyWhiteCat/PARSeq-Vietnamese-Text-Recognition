@@ -1,5 +1,5 @@
 # Nhận diện từ tiếng Việt bằng [PARSeq](https://github.com/baudm/parseq)
-Code dùng để nhận diện tiếng Việt trong văn bản (bao gồm cả các ký tự đặc biệt) sử dụng model [PARSeq](https://github.com/baudm/parseq) được finetune bằng 5 triệu ảnh synthetic tiếng Việt. Model expect input đầu vào là ảnh của 1-3 từ tiếng Việt đã được cắt ra bằng model text detection.
+Code dùng để nhận diện tiếng Việt (text recognition) trong văn bản (bao gồm cả các ký tự đặc biệt) sử dụng model [PARSeq](https://github.com/baudm/parseq) được finetune bằng 5 triệu ảnh synthetic tiếng Việt. Model expect input đầu vào là ảnh của 1-3 từ tiếng Việt đã được cắt ra bằng model text detection.
 
 MODEL KHÔNG CÓ KHẢ NĂNG NHẬN DIỆN CẢ MỘT DÒNG KÝ TỰ DÀI.
 ## 1. Cài đặt các thư viện cần thiết
